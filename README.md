@@ -122,3 +122,4 @@ python3 main.py
 만약 Gmail 설정값을 입력해줬다면 아래처럼 업로드 알람 메일이 옵니다.
 
 ![mail](resource/mail.png)# Notion_to_Github
+# Notion_to_Github
