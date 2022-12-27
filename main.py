@@ -46,6 +46,8 @@ class Notion2Tistory:
         # selenium 시작
         self.s_client = SeleniumClient(sleep_time=sleep_time, is_hide=(not selenium_debug))
 
+
+        # 여기서부터 코드를 수정하면 될 것 같음.
         # selenium으로 kakao(tistory) 로그인, authorize code 발급받기(for OAuth)
         try:
             self.s_client.tistory_login(cfg.TISTORY.ID, cfg.TISTORY.PW)
